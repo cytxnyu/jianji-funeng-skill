@@ -1,0 +1,10 @@
+node_modules/
+.remotion/
+dist/
+build/
+__pycache__/
+*.pyc
+.env*
+evals/
+outputs/
+.DS_Store

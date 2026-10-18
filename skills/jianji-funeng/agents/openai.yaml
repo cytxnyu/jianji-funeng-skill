@@ -1,0 +1,4 @@
+interface:
+  display_name: "剪辑赋能skill"
+  short_description: "按视频语义匹配鎏金章节标题与粉色高亮提示词卡，保留原声并验证成片"
+  default_prompt: "使用 $jianji-funeng，根据我的视频和字幕选择真正适合的位置，添加内容相符的鎏金标题和粉色高亮提示词卡，保留原声与时长并输出成片。"

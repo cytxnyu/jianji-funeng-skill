@@ -1,0 +1,47 @@
+{
+  "schemaVersion": 1,
+  "purpose": "preview",
+  "fps": 30,
+  "source": {
+    "width": 1920,
+    "height": 1080,
+    "duration": 4
+  },
+  "segments": [
+    {
+      "id": "chapter-demo",
+      "type": "chapter",
+      "start": 0,
+      "end": 2,
+      "reason": "Public appearance demo",
+      "evidence": [],
+      "props": {
+        "titleLines": [
+          "让素材变成",
+          "清晰的表达"
+        ],
+        "chapter": "01",
+        "signature": "cyt",
+        "subtitle": "MAKE YOUR IDEAS CLEAR"
+      }
+    },
+    {
+      "id": "prompt-demo",
+      "type": "prompt",
+      "start": 2,
+      "end": 4,
+      "reason": "Public appearance demo",
+      "evidence": [],
+      "props": {
+        "label": "提示词",
+        "lines": [
+          "请将素材按主题归类",
+          "输出：主题、要点、下一步行动",
+          "保留原意，不添加未经确认的信息"
+        ],
+        "highlightLine": 1,
+        "caption": "输入这段提示词"
+      }
+    }
+  ]
+}
