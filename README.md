@@ -13,15 +13,13 @@
 
 ## 安装
 
-```bash
-npx -y skills add cytxnyu/jianji-funeng-skill -g --all
-```
-
-仅安装到 Codex：
+安装到 Codex（已做隔离安装与逐文件校验）：
 
 ```bash
 npx -y skills add cytxnyu/jianji-funeng-skill --skill jianji-funeng --agent codex -g -y
 ```
+
+需要选择其他 Agent 时，去掉 `--agent codex` 和末尾的 `-y`，按安装器提示选择目标。不要用 `--all` 代替选择：部分 Agent 本身不支持全局安装。
 
 名称：**剪辑赋能skill**；技术调用标识：`jianji-funeng`。
 
